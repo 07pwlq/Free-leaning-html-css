@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY FRIST HTML LLOLL</title>
+    
+    <style>
+        table, th td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+    <style> 
+    </style>
+    <style>
+        div{
+            background-color: gold;
+        }
+        a1{
+            background-color: wheat;
+        }
+    </style>
+    <style> 
+        .box {
+            background-color: black;
+            color: white;
+            margin: 10px;
+            padding: 20px;
+        
+        }
+        .center {
+            text-align: center;
+        }
+
+        #myId  {
+            width: 200px;
+            background-color: gray;
+            height: 100px;
+        }
+        .box {
+            margin: 5px;
+            width: 200px;
+            height: 100px;
+            background-color: aquamarine;
+        }
+    </style>
+    <style>
+        body {
+            width: 300px;
+            margin: 0 auto;
+
+        }
+        header {
+            height: 50px;
+            background-color: brown;
+
+        }
+        nav {
+            height: 25px;
+            background-color: aquamarine;
+        }
+        section {
+          float: left;  
+          width: 180px;
+          background-color: blue;
+        }
+        aside {
+            float: left;
+            width: 150px;
+            background-color: salmon;
+        }
+        footer {
+            clear: both;
+            height: 20px;
+            background-color: teal;
+        }
+    </style>
+</head>
+<body>
+    <h1>kanatip chansri</h1>
+    
+    <!-- HTML FORMATTING ELEMENTS -->
+     <b>Text</b>    
+     <br>
+     <strong>kanaitp</strong>
+     <br>
+     <i>raiden</i>
+     <br>
+     <em> jokee </em>
+     <br>
+     <mark> text</mark>
+     <br>
+     <small> something</small>
+     <br>
+     <del>Text</del>
+     <br>
+     <ins>test</ins>
+     <br>
+     <sub> script </sub>
+     <br>
+     <sub> script </sub>
+     <br>
+     <sub> script </sub>
+     <br>
+     <sub> script </sub> <!-- บันได -->
+     <sup> script </sup>
+<br>
+     <a title=" go to ins" href="https://www.instagram.com" target="_blank">click to go</a>
+    <br>
+     <a href="https://youtube.com" target="_blank">
+        <img src="" alt="pic">
+     </a>
+<br>
+<br>
+
+    <table> <!-- register box -->
+     <tr>
+        <th>FRISTNAME</th>
+        <th>LASTNAME</th>
+        <th>AGE</th>
+     </tr>
+     <tr>
+        <td>KANATIP</td>
+        <td>CHANSRI</td>
+        <td>17</td>
+     </tr>
+    </table>
+
+    <ul> <!-- ul , ol -->
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+        <li>List item 4</li>
+        <li>List item 5</li>
+    </ul>
+    <br>
+    <form>
+        <fieldset><!-- ขอบ outline -->
+            <legend> <!-- title หัวข้อ อยู่บน -->
+                Register from
+            </legend>
+            <label for="first name">Frist name</label> <!-- ช่องใส่ชื่่อ -->
+            <input type="text" placeholder="Enter your firstname...">
+            <br>
+            <label for="first name">Last name</label>
+            <input type="text" placeholder="Enter your lastname...">
+            <br>
+            <label for="Gender">Select Gender :<label>
+                <br> <!-- เลือกได้ตัวเดียว -->
+            <input type="radio" name="Gender" value="male" checked>Male 
+            <input type="radio" name="Gender" value="female">Female 
+            
+            <br> <!-- checkbox เลือกได้หลายตัว-->
+            <input type="checkbox" value="value1" name="value1" > checked 1
+            <input type="checkbox" value="value2" name="value2" > checked 2
+            <input type="checkbox" value="value3" name="value3" > checked 3
+            <br> <!-- ตกลง -->
+            <input type="submit">
+        </fieldset>
+    </form>
+    <div>
+        this is div
+    </div>
+    <a1 href="#">this is a inline ELEMENTS</a1>
+    <a1 href="#">this is a inline ELEMENTS</a1>
+    <a1 href="#">this is a inline ELEMENTS</a1>
+    
+    <br> <!-- ทำกล่องครอบ สี -->
+    <div class="box">
+        <h2>this is box1</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="box center"> <!-- เอามาจาก css ( text .center )-->
+        <h2>this is box3</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="box">
+        <h2>this is box2</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+        <br>
+
+        <div id="myId">asdasdadasd</div>
+  
+        <br> <!-- นำวิดีโอหรือข้อความจากไฟล์อื่นเข้ามาอิมพอตลงในหน้าเว็ป -->
+
+     <iframe width="340" height="200" src="https://www.youtube.com/embed/7MeQxBqchNU?si=eHisKblfKHhVlHJO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <br>
+        <iframe src="iframe.html" frameborder="1"></iframe>
+
+        <!--
+            <<<<<ตัวอักษรพิเศษ>>>>>
+
+          non-breaking space	           &nbsp;	&#160;	
+        <	less than	   	               &lt;     &#60;
+        >	greater than	               &gt;	    &#62;	
+        &	ampersand	                   &amp;	&#38;	
+        "	double quotation mark	       &quot;	&#34;	
+        '	single quotation mark	       &apos;	&#39;	
+        ¢	cent	                       &cent;	&#162;	
+        £	pound	                       &pound;	&#163;	
+        ¥	yen	                           &yen;	&#165;	
+        €  	euro	                       &euro;	&#8364;	
+     ©	copyright	                       &copy;	&#169;	
+     ®	trademark	                       &reg;	&#174;	
+       
+         -->
+     
+    <p>            <!-- like this -->
+        this is text : example &lt; HI world &#62; &#162; &#169;
+        <br>
+        ATOM &#38; ronaldo
+    </p>
+
+    <!--  HTML5 Sematics ELEMENTS !!!   ( การทำ layoutt )
+
+        <article>
+        <aside>
+        <details>
+        <figcaption>
+        <figure>
+        <footer>
+        <header>
+        <main>
+        <mark>
+        <nav>
+        <section>
+        <summary>
+        <time>
+       
+    -->
+
+    <header>
+        หัวข้อ
+    </header>
+    <nav>
+        nav
+    </nav>
+    <section>
+        ใส่ข้อมูลเป่็น section
+    </section>
+    <aside>
+        ทำเมนูด้านข้าง
+    </aside>
+    <footer>
+        footer9
+    </footer>
+
+</body>
+</html>
